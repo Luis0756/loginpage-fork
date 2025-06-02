@@ -44,7 +44,7 @@ jobs:
 
       - name: Executar testes com Robot (modo headless)
         run: |
-          python3 -m robot .\tests\teste_login.robot
+          python3 -m robot ./tests/teste_login.robot
 
       - name: Salvar relatório
         uses: actions/upload-artifact@v4
